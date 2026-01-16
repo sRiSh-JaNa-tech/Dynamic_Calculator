@@ -4,6 +4,7 @@
     align-items: center;
     height: 100vh;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .main-box {
@@ -11,6 +12,7 @@
     height: 550px;
     width: 400px;
     border-radius: 20px;
+    overflow-x: hidden;
 }
 
 .result-box {
@@ -23,7 +25,7 @@
     font-size: 24px;
     padding: 10px;
     box-sizing: border-box;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .display-box {
@@ -38,7 +40,7 @@
     padding: 10px;
     padding-right: 30px;
     box-sizing: border-box;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .answer-box{
@@ -51,7 +53,7 @@
     padding: 10px;
     padding-right: 30px;
     box-sizing: border-box;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {

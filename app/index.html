@@ -6,7 +6,7 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
-<body style = "background-color: black;">
+<body style = "background-color: black;overflow: hidden;">
     <div class = "box">
         <div class = "main-box">
             <div class = "result-box">
@@ -15,36 +15,36 @@
             </div>
             <div>
                 <div class = "button-row">
-                    <button class = "button function-button" id = "clear">C</button>
-                    <button class = "button function-button" id = "backspace">
+                    <button class = "button function-button" id = "clear" onclick = "clearDisplay()">C</button>
+                    <button class = "button function-button" id = "backspace" onclick = "backspace()">
                         <img src="images/delete.png" alt="Backspace" class="backspace-icon" width = 35 height = 35>
                     </button>
-                    <button class = "button operator-button" id = "modulus">%</button>
-                    <button class = "button operator-button" id = "divide">÷</button>
+                    <button class = "button operator-button" id = "modulus" onclick="add(this)">%</button>
+                    <button class = "button operator-button" id = "divide" onclick="add(this)">÷</button>
                 </div>
                 <div class = "button-row">
-                    <button class = "button number-button" id = "7">7</button>
-                    <button class = "button number-button" id = "8">8</button>
-                    <button class = "button number-button" id = "9">9</button>
-                    <button class = "button operator-button" id = "multiply">×</button>
+                    <button class = "button number-button" id = "7" onclick="add(this)">7</button>
+                    <button class = "button number-button" id = "8" onclick="add(this)">8</button>
+                    <button class = "button number-button" id = "9" onclick="add(this)">9</button>
+                    <button class = "button operator-button" id = "multiply" onclick="add(this)">x</button>
                 </div>
                 <div class = "button-row">
-                    <button class = "button number-button" id = "4">4</button>
-                    <button class = "button number-button" id = "5">5</button>
-                    <button class = "button number-button" id = "6">6</button>
-                    <button class = "button operator-button" id = "subtract">−</button>
+                    <button class = "button number-button" id = "4" onclick="add(this)">4</button>
+                    <button class = "button number-button" id = "5" onclick="add(this)">5</button>
+                    <button class = "button number-button" id = "6" onclick="add(this)">6</button>
+                    <button class = "button operator-button" id = "subtract" onclick="add(this)">−</button>
                 </div>
                 <div class = "button-row">
-                    <button class = "button number-button" id = "1">1</button>
-                    <button class = "button number-button" id = "2">2</button>
-                    <button class = "button number-button" id = "3">3</button>
-                    <button class = "button operator-button" id = "add">+</button>
+                    <button class = "button number-button" id = "1" onclick="add(this)">1</button>
+                    <button class = "button number-button" id = "2" onclick="add(this)">2</button>
+                    <button class = "button number-button" id = "3" onclick="add(this)">3</button>
+                    <button class = "button operator-button" id = "add" onclick="add(this)">+</button>
                 </div>
                 <div class = "button-row">
-                    <button class = "button function-button" id = "left-bracket">(</button>
-                    <button class = "button number-button" id = "0">0</button>
-                    <button class = "button function-button" id = "right-bracket">)</button>
-                    <button class = "button equal-button" id = "equals">=</button>
+                    <button class = "button function-button" id = "left-bracket" onclick="add(this)">(</button>
+                    <button class = "button number-button" id = "0" onclick="add(this)">0</button>
+                    <button class = "button function-button" id = "right-bracket" onclick="add(this)">)</button>
+                    <button class = "button equal-button" id = "equals" onclick="calculate()">=</button>
                 </div>
             </div>
         </div>
