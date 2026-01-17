@@ -85,6 +85,36 @@ function solve(expression) {
     return evaluatePostfix(ItP(expression));
 }
 
+async function start_web(req, res) {
+    try {
+        let filePath =
+            req.url === "/"
+                ? path.join(__dirname, "Website", "index.html")
+                : path.join(__dirname, "Website", req.url);
+        const ext = path.extname(filePath);
+        const mimeTypes = {
+            ".html": "text/html",
+            ".css": "text/css",
+            ".js": "text/javascript",
+            ".json": "application/json",
+            ".png": "image/png",
+            ".jpg": "image/jpeg",
+            ".jpeg": "image/jpeg",
+            ".gif": "image/gif",
+            ".svg": "image/svg+xml",
+            ".ico": "image/x-icon"
+        };
+        const contentType = mimeTypes[ext] || "application/octet-stream";
+        const data = await fs.promises.readFile(filePath);
+        res.writeHead(200, { "Content-Type": contentType });
+        res.end(data);
+
+    } catch (err) {
+        res.writeHead(404, { "Content-Type": "text/plain" });
+        res.end("404 Not Found");
+    }
+}
+
 const requestHandler = (req, res) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
@@ -98,7 +128,6 @@ const requestHandler = (req, res) => {
 
     if (req.method === 'POST' && req.url === '/calculate') {
         let body = '';
-
         req.on('data', chunk => body += chunk);
         req.on('end', () => {
             try {
@@ -118,9 +147,8 @@ const requestHandler = (req, res) => {
         });
         return;
     }
-
-    res.writeHead(404, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ error: "Route not found" }));
+    
+    start_web(req, res);
 };
 
 module.exports = requestHandler;
