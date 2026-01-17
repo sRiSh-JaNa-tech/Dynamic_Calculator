@@ -50,5 +50,14 @@
         </div>
     </div>
     <script src="../components/Scripts/index.js"></script>
+        <script>
+        const evtSource = new EventSource("/reload");
+
+        evtSource.onmessage = () => {
+            console.log("Reloading page...");
+            location.reload();
+        };
+    </script>
+
 </body>
 </html>

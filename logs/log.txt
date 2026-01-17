@@ -1,49 +1,49 @@
-[2026-01-16T20:11:33.268Z] DEBUG: expression: 9 + (3 * 4)
-[2026-01-16T20:11:34.155Z] DEBUG: expression: 9 + (3 * 4)
-[2026-01-16T20:11:35.102Z] DEBUG: expression: 9 + (3 * 4)
-[2026-01-16T20:12:07.476Z] DEBUG: expression: 9 + (3 * 4)
-[2026-01-16T20:13:43.339Z] INFO: Server started on port 3000
-[2026-01-16T20:14:37.293Z] INFO: Server started on port 3000
-[2026-01-16T20:15:05.471Z] DEBUG: expression: 9+(3*4)
-[2026-01-16T20:15:45.791Z] INFO: Server started on port 3000
-[2026-01-16T20:16:07.432Z] DEBUG: expression: 9+(3*4)
-[2026-01-16T20:17:50.740Z] INFO: Server started on port 3000
-[2026-01-16T20:17:55.093Z] DEBUG: expression: 9+(3*4)
-[2026-01-16T20:19:00.806Z] INFO: Server started on port 3000
-[2026-01-16T20:19:02.637Z] INFO: Server started on port 3000
-[2026-01-16T20:19:04.669Z] INFO: Server started on port 3000
-[2026-01-16T20:19:56.291Z] INFO: Server started on port 3000
-[2026-01-16T20:19:58.482Z] INFO: Server started on port 3000
-[2026-01-16T20:20:01.409Z] INFO: Server started on port 3000
-[2026-01-16T20:20:10.387Z] DEBUG: expression: 9+(3*4)
-[2026-01-16T20:20:23.904Z] DEBUG: expression: 9+(3*4)
-[2026-01-16T20:20:25.464Z] DEBUG: expression: 9+(3*4)
-[2026-01-16T20:20:26.782Z] DEBUG: expression: 9+(3*4)
-[2026-01-16T20:20:33.847Z] DEBUG: expression: 9+(3*4)
-[2026-01-16T20:21:07.205Z] DEBUG: expression: 2+2
-[2026-01-16T20:21:16.357Z] DEBUG: expression: 2+6x9
-[2026-01-16T20:21:57.459Z] DEBUG: expression: 2+5−6
-[2026-01-16T20:23:25.541Z] DEBUG: expression: 9+(3*4)
-[2026-01-16T20:23:34.763Z] DEBUG: expression: 2−6x9
-[2026-01-16T20:25:12.721Z] INFO: Server started on port 3000
-[2026-01-16T20:25:26.137Z] INFO: Server started on port 3000
-[2026-01-16T20:25:32.328Z] INFO: Server started on port 3000
-[2026-01-16T20:25:39.408Z] INFO: Server started on port 3000
-[2026-01-16T20:25:42.770Z] INFO: Server started on port 3000
-[2026-01-16T20:25:59.451Z] DEBUG: expression: 2-6x9
-[2026-01-16T20:26:00.681Z] DEBUG: expression: 2-6x9
-[2026-01-16T20:29:55.776Z] DEBUG: expression: 2-6x9
-[2026-01-16T20:30:07.754Z] INFO: Server started on port 3000
-[2026-01-16T20:30:15.226Z] INFO: Server started on port 3000
-[2026-01-16T20:30:17.999Z] INFO: Server started on port 3000
-[2026-01-16T20:34:04.142Z] INFO: Server started on port 3000
-[2026-01-16T20:34:15.492Z] DEBUG: expression: 2-6*9
-[2026-01-16T20:38:52.777Z] INFO: Server started on port 3000
-[2026-01-16T20:38:54.471Z] INFO: Server started on port 3000
-[2026-01-16T20:38:56.855Z] INFO: Server started on port 3000
-[2026-01-17T12:30:54.183Z] INFO: Server started on port 3000
-[2026-01-17T12:35:47.429Z] INFO: Server started on port 3000
-[2026-01-17T12:37:00.926Z] INFO: Server started on port 3000
-[2026-01-17T13:12:04.317Z] INFO: Server started on port 3000
-[2026-01-17T13:12:05.555Z] INFO: Server started on port 3000
-[2026-01-17T13:15:53.777Z] INFO: Server started on port 3000
+[2026-01-17T16:12:10.189Z] INFO: Server started on port 3000
+[2026-01-17T16:12:10.840Z] ERROR: 404: /components/Scripts/index.js
+[2026-01-17T16:17:13.871Z] INFO: Server started on port 3000
+[2026-01-17T16:17:23.090Z] DEBUG: expression: 8*9
+[2026-01-17T16:17:31.191Z] DEBUG: expression: 2-6*9
+[2026-01-17T16:18:11.176Z] DEBUG: expression: (2-5*9-8*6)*2
+[2026-01-17T16:18:31.987Z] DEBUG: expression: (2*8%9)
+[2026-01-17T16:18:55.505Z] DEBUG: expression: 56/8
+[2026-01-17T16:19:16.958Z] DEBUG: expression: 56/8
+[2026-01-17T16:21:42.957Z] INFO: Server started on port 3000
+[2026-01-17T16:21:45.968Z] INFO: Server started on port 3000
+[2026-01-17T16:22:05.469Z] INFO: Server started on port 3000
+[2026-01-17T16:23:46.700Z] INFO: Server started on port 3000
+[2026-01-17T16:24:37.968Z] INFO: Server started on port 3000
+[2026-01-17T16:24:48.346Z] INFO: Server started on port 3000
+[2026-01-17T16:25:03.797Z] DEBUG: expression: 56/8
+[2026-01-17T16:25:20.009Z] ERROR: 404: /.well-known/appspecific/com.chrome.devtools.json
+[2026-01-17T16:27:54.264Z] INFO: Server started on port 3000
+[2026-01-17T16:28:01.500Z] INFO: Server started on port 3000
+[2026-01-17T16:28:12.906Z] DEBUG: expression: 56/8
+[2026-01-17T16:33:28.285Z] INFO: Server started on port 3000
+[2026-01-17T16:33:38.071Z] INFO: Server started on port 3000
+[2026-01-17T16:33:45.531Z] INFO: Server started on port 3000
+[2026-01-17T16:33:46.429Z] INFO: Server started on port 3000
+[2026-01-17T16:33:46.744Z] INFO: Server started on port 3000
+[2026-01-17T16:33:55.788Z] INFO: Server started on port 3000
+[2026-01-17T16:34:03.746Z] INFO: Server started on port 3000
+[2026-01-17T16:34:42.153Z] INFO: Server started on port 3000
+[2026-01-17T16:34:53.799Z] INFO: Server started on port 3000
+[2026-01-17T16:34:59.503Z] INFO: Server started on port 3000
+[2026-01-17T16:35:33.735Z] INFO: Server started on port 3000
+[2026-01-17T16:35:39.803Z] INFO: Server started on port 3000
+[2026-01-17T16:35:45.424Z] INFO: Server started on port 3000
+[2026-01-17T16:40:09.175Z] INFO: Server started on port 3000
+[2026-01-17T16:40:29.660Z] INFO: Server started on port 3000
+[2026-01-17T16:41:05.229Z] INFO: Server started on port 3000
+[2026-01-17T16:41:11.175Z] INFO: Server started on port 3000
+[2026-01-17T16:41:12.678Z] INFO: Server started on port 3000
+[2026-01-17T16:41:13.405Z] INFO: Server started on port 3000
+[2026-01-17T16:42:01.862Z] INFO: Server started on port 3000
+[2026-01-17T16:42:03.969Z] INFO: Server started on port 3000
+[2026-01-17T16:42:13.083Z] INFO: Server started on port 3000
+[2026-01-17T16:42:19.263Z] INFO: Server started on port 3000
+[2026-01-17T16:42:41.963Z] INFO: Server started on port 3000
+[2026-01-17T16:43:36.494Z] INFO: Server started on port 3000
+[2026-01-17T16:43:49.979Z] DEBUG: expression: 8966666666*9
+[2026-01-17T16:44:14.345Z] DEBUG: expression: 999/9
+[2026-01-17T16:44:19.818Z] DEBUG: expression: 999*8
+[2026-01-17T16:44:29.770Z] DEBUG: expression: 999/8
